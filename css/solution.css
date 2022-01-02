@@ -79,11 +79,11 @@ p {
     font-size: 1.8em;
   }
   
-  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
     border: 2px solid black;
   }
-  
-  .navbar-header button.navbar-toggle {
+
+.navbar-header button.navbar-toggle {
     clear: both;
     margin-top: -30px;
   }
@@ -100,12 +100,7 @@ p {
 .navbar-brand {
     padding-top: 15px;
     height: 80px;
-} 
-    /* End Header */
-  
-    /* Home Page */
-    
-    /* End Home Page */
+  } 
 }
   
 /********** Small devices only **********/
@@ -117,7 +112,7 @@ p {
   } 
 }
   
-  /********** Extra small devices only **********/
+/********** Extra small devices only **********/
 @media (max-width: 767px) {
 /* Header */
 .navbar-brand {
@@ -125,15 +120,9 @@ p {
     padding-left: 0px;
     height: 80px;
 }
-
-
     
 #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
-}
-#collapsable-nav a span { /* Collapsed nav menu glyph */
-    font-size: 1em;
-    margin-right: 5px;
 }
   
 #call-btn > a {
