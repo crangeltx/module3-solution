@@ -8,11 +8,11 @@
 body {
     font-size: 15px;
     color: rgb(0, 0, 0);
-  }
+}
   
 /** HEADER **/
 .container {
-    margin: -8px auto 0 auto;
+    margin: -23px 0 0px 8px;
 }
 
 #header-nav {
@@ -20,7 +20,7 @@ body {
   }
   
 /* Restaurant name */
-  .navbar-brand {
+.navbar-brand {
     font-family: 'Oxygen', sans-serif;
     font-size: 1.3em;
     margin: 8px 0px 20px 0;
@@ -31,12 +31,20 @@ body {
 
 h1 {
     font-family: 'Oxygen', sans-serif;
+    color: black;
 }
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+    border: 2px solid black;
+  }
 
 /* Menu Title */
 h2 {
     padding: 11px 0 15px 0;
     text-align: center;
+    color: solid black;
     
 }
 
@@ -45,10 +53,103 @@ h3 {
     background-color: grey;
     padding: 11px 11px 11px 11px;
     text-align: center;
+    margin: 0px;
 }
 
 p {
     background-color: grey;
     height: auto;
-    padding: 11px 11px 11px 11px;
+    padding: 11px 43px 11px 25px;
+    margin: -1px 0 10px;
 }
+
+/* Nav List */
+
+#nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: black;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 2px solid black;
+  }
+  
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    
+}
+  
+  /********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+/* Header */
+.navbar-brand {
+    padding-top: 15px;
+    height: 80px;
+} 
+    /* End Header */
+  
+    /* Home Page */
+    
+    /* End Home Page */
+}
+  
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+/* Header */
+   .navbar-brand {
+    padding-top: 15px;
+    height: 80px;
+  } 
+}
+  
+  /********** Extra small devices only **********/
+@media (max-width: 767px) {
+/* Header */
+.navbar-brand {
+    padding-top: 15px;
+    padding-left: 0px;
+    height: 80px;
+}
+
+
+    
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+}
+#collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+}
+  
+#call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: black;
+}
+#xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    }
+}
+    /* End Header */
