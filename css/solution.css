@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxygen', sans-serif;
+}
+
+body {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+  }
+  
+/** HEADER **/
+.container {
+    margin: -8px auto 0 auto;
+}
+
+#header-nav {
+    background-color: gray;
+  }
+  
+/* Restaurant name */
+  .navbar-brand {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.3em;
+    margin: 8px 0px 20px 0;
+    padding-top: 11px;
+    margin-left: 20px;
+    height: 65px;
+}
+
+h1 {
+    font-family: 'Oxygen', sans-serif;
+}
+
+/* Menu Title */
+h2 {
+    padding: 11px 0 15px 0;
+    text-align: center;
+    
+}
+
+/* Menu Item Title */
+h3 {
+    background-color: grey;
+    padding: 11px 11px 11px 11px;
+    text-align: center;
+}
+
+p {
+    background-color: grey;
+    height: auto;
+    padding: 11px 11px 11px 11px;
+}
