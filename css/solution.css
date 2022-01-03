@@ -12,7 +12,7 @@ body {
   
 /** HEADER **/
 .container {
-    margin: -23px 0 0px 8px;
+    margin: -25px 0 0px 0px;
 }
 
 #header-nav {
@@ -33,12 +33,6 @@ h1 {
     font-family: 'Oxygen', sans-serif;
     color: black;
 }
-
-.navbar-header button.navbar-toggle {
-    clear: both;
-    margin-top: -30px;
-    border: 2px solid black;
-  }
 
 /* Menu Title */
 h2 {
@@ -67,17 +61,15 @@ p {
 
 #nav-list {
     margin-top: 10px;
-  }
-  #nav-list a {
+}
+#nav-list a {
     color: black;
     text-align: center;
-  }
-  #nav-list a:hover {
+}
+#nav-list a:hover {
     background: white;
   }
-  #nav-list a span {
-    font-size: 1.8em;
-  }
+
   
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
     border: 2px solid black;
